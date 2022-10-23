@@ -33,7 +33,7 @@ const GlobalData = ({children}) => {
         }, 800)
 
         return () => clearTimeout(timer)
-    }, [moveName])
+    }, [moveName, movies])
 
     return <AppContext.Provider value={{isLoading, isError, movies, moveName,setMoveName}}>   {children} 
     </AppContext.Provider>

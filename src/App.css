@@ -96,3 +96,76 @@ h1{
   font-weight: bolder;
   font-family: 'Fugaz One', cursive;
 }
+
+.loading{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailsBox{
+  max-width: 100vw;
+  min-height: 100vh;
+  padding: 10px;
+  max-height: max-content;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.detailsCard{
+  min-width: 70%;
+  max-width: 100%;
+  min-height: 500px;
+  max-height: max-content;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.detailsCard > .images{
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.detailsCard > .content{
+  margin: 20px;
+  max-width: 400px;
+}
+
+.content > h2{
+  font-family: 'Fugaz One', cursive;
+  background: -webkit-linear-gradient(#C33764 , #1D2671);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 5px;
+  
+}
+
+.content > h3{
+  padding: 5px;
+  font-family: 'Fugaz One', cursive;
+  text-align: left;
+  line-break: auto;
+}
+
+.link{
+  padding-top: 10px;
+}
+.link > a{
+  text-decoration: none;
+  padding: 8px 35px;
+  background: linear-gradient(#C33764 , #1D2671);
+  border-radius: 20px;
+  color: white;
+  font-family: 'Fugaz One', cursive;
+}
